@@ -19,6 +19,8 @@ Installation
 
    $ go get -u github.com/sampoapp/sampo-cli/sampo
 
+   $ sampo init  # creates the $HOME/.sampo/ directory tree
+
    $ git clone https://github.com/sampoapp/sampo-demos.git
 
 Usage
