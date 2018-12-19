@@ -12,6 +12,11 @@ Sampo Demo Scenarios
 
 |
 
+Prerequisites
+=============
+
+- `GNU Make <https://www.gnu.org/software/make/>`__ 3.81+
+
 Installation
 ============
 
@@ -30,6 +35,6 @@ Usage
 
    $ cd sampo-demos
 
-   $ sampo build batman
+   $ make batman.db
 
-   $ sampo build matrix
+   $ make matrix.db

@@ -6,3 +6,6 @@
 
 # rst2html outputs
 *.html
+
+# Sampo databases
+*.db
