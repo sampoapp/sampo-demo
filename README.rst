@@ -63,3 +63,10 @@ Build the Matrix Demo Scenario
 ::
 
    $ make matrix.db
+
+See Also
+========
+
+- `Sampo App for Android <https://github.com/sampoapp/sampo>`__
+
+- `Sampo Command-Line Interface (CLI) <https://github.com/sampoapp/sampo-cli>`__
