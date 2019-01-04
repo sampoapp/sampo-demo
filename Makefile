@@ -5,10 +5,10 @@ TARGETS := batman.db matrix.db
 all: $(TARGETS)
 
 batman.db: batman $(wildcard batman/*/*.yaml)
-	$(SAMPO) build $<
+	$(SAMPO) build -o $@ $<
 
 matrix.db: matrix $(wildcard matrix/*/*.yaml)
-	$(SAMPO) build $<
+	$(SAMPO) build -o $@ $<
 
 clean:
 	@rm -f $(TARGETS)
