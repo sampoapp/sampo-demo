@@ -15,26 +15,51 @@ Sampo Demo Scenarios
 Prerequisites
 =============
 
+To build the Sampo demo scenarios, you will need the following software:
+
 - `GNU Make <https://www.gnu.org/software/make/>`__ 3.81+
+
+- `Go <https://golang.org/>`__ 1.11+
 
 Installation
 ============
+
+Install the Sampo CLI
+---------------------
 
 ::
 
    $ go get -u github.com/sampoapp/sampo-cli/sampo
 
+Configure the Sampo CLI
+-----------------------
+
+::
+
    $ sampo init  # creates the $HOME/.sampo/ directory tree
 
+Download the Demos
+------------------
+
+::
+
    $ git clone https://github.com/sampoapp/sampo-demos.git
+
+   $ cd sampo-demos
 
 Usage
 =====
 
+Build the Batman Demo Scenario
+------------------------------
+
 ::
 
-   $ cd sampo-demos
-
    $ make batman.db
+
+Build the Matrix Demo Scenario
+------------------------------
+
+::
 
    $ make matrix.db
