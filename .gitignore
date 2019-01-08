@@ -9,3 +9,6 @@
 
 # Sampo databases
 *.db
+
+# Release artifacts
+*.zip
